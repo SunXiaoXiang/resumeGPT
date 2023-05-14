@@ -33,3 +33,44 @@ a,
     padding: 0 2rem;
   }
 }
+
+
+.container {
+  display: flex; 
+}
+
+.left {
+  margin-right: 5px; 
+}
+
+.right {
+  margin-left: 5px;
+}  
+
+.left, 
+.right {
+  width: 50%; /* 各占一半 */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}  
+
+.right button {
+  margin-bottom: 10px; 
+}
+
+.right p {
+  margin-bottom: 10px;
+}
+
+.left span {
+  margin-left: 40px; 
+}
+
+
+.right span {
+  margin-left: 0px; 
+}
